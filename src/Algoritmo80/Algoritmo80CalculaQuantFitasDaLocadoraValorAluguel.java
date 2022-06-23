@@ -31,6 +31,17 @@ public class Algoritmo80CalculaQuantFitasDaLocadoraValorAluguel {
 		System.out.println(" Digite o valor do aluguel: ");
 		valAluguel = scanner.nextDouble();
 		
+		calculaMultaQuantFinalFatAnual(quantidade, valAluguel);
+		
+	
+	}
+
+	public static void calculaMultaQuantFinalFatAnual(int quantidade, double valAluguel) {
+		
+		double fatAnual;
+		double multas;
+		double quantFinal;
+		
 		fatAnual = (quantidade / 3) * (valAluguel * 12) ;
 		System.out.println(" Imprimir Faturamento Anual:  " + fatAnual);
 		
@@ -39,15 +50,6 @@ public class Algoritmo80CalculaQuantFitasDaLocadoraValorAluguel {
 		
 		quantFinal = quantidade - (quantidade * 0.02) + (quantidade/10);
 		System.out.println(" Quantidade de fitas no final do ano :  " + quantFinal);
-		
-		/* fatAnual <- quant/3 * valAluguel * 12;
-			imprima "\n Faturamento anual: ", fatAnual;
-			multas <- valAluguel * 0.1 * (quant/3)/10;
-			imprima "\n Multas mensais : ", multas;
-			quantFinal <- quant - quant * 0.02 + quant/10; /* quant * 1.08 
-			imprima "\n Quantidade de fitas no final do ano : ", quantFinal; 
-			*/
-		
 	}
 
 }
