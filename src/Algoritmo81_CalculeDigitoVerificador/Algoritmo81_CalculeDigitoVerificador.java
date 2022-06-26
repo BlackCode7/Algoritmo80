@@ -17,7 +17,7 @@ public class Algoritmo81_CalculeDigitoVerificador {
 		d2 = (soma % 100 / 10) * 2;
 		d3 = (soma % 100 % 10) *3;
 		
-		digito = (d1 +d2 +d3) % 10;
+		digito = (d1 +d2 +d3) % 10; //
 		
 		System.out.println("Digito verificardor: " + digito);
 
