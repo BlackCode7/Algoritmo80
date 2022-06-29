@@ -6,25 +6,27 @@ public class Algoritmo80CalculaQuantFitasDaLocadoraValorAluguel {
 
 	public static void main(String[] args) {
 		
-		/* Criar um algoritmo que leia a quantidade de fitas que uma locadora de vídeo possui
-			e o valor que ela cobra por cada aluguel, mostrando as informações pedidas a
+		/* Criar um algoritmo que leia a quantidade de fitas que uma locadora de vï¿½deo possui
+			e o valor que ela cobra por cada aluguel, mostrando as informaï¿½ï¿½es pedidas a
 			seguir:
 			
-			• Sabendo que um terço das fitas são alugadas por mês, exiba o
+			ï¿½ Sabendo que um terï¿½o das fitas sï¿½o alugadas por mï¿½s, exiba o
 			faturamento anual da locadora;
 			
-			• Quando o cliente atrasa a entrega, é cobrada uma multa de 10% sobre o
-			valor do aluguel. Sabendo que um décimo das fitas alugadas no mês são
-			devolvidas com atraso, calcule o valor ganho com multas por mês;
+			ï¿½ Quando o cliente atrasa a entrega, ï¿½ cobrada uma multa de 10% sobre o
+			valor do aluguel. Sabendo que um dï¿½cimo das fitas alugadas no mï¿½s sï¿½o
+			devolvidas com atraso, calcule o valor ganho com multas por mï¿½s;
 			
-			• Sabendo ainda que 2% de fitas se estragam ao longo do ano, e um décimo
-			do total é comprado para reposição, exiba a quantidade de fitas que a locadora
-			terá no final do ano.
+			ï¿½ Sabendo ainda que 2% de fitas se estragam ao longo do ano, e um dï¿½cimo
+			do total ï¿½ comprado para reposiï¿½ï¿½o, exiba a quantidade de fitas que a locadora
+			terï¿½ no final do ano.
 		*/
 		
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		int quantidade;
-		double valAluguel, fatAnual, multas, quantFinal;
+		@SuppressWarnings("unused")
+		double valAluguel, fatAnual,  quantFinal;
 		
 		System.out.println(" Digite a quantidade de fitas: ");
 		quantidade = scanner.nextInt();
